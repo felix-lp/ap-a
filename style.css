@@ -58,6 +58,7 @@ body{
 }
 .phone_item .icon{
     margin-right: 0.6rem;
+    width: 2rem;
 }
 .phone_item a{
     text-decoration: none;
@@ -147,12 +148,23 @@ body{
     background-color: #ffd400;
     padding: 1rem 1.5rem;
     margin: 0.75rem 0 0rem 0;
-    font-size: 1.3rem;
+    font-size: 1.1rem;
     font-weight: 600;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.button img{
+    margin-right: 10px;
 }
 .hero_button_auc{
-    background-color: #ff00006d;
+    background-color: #ff0606;
     color: #FFF;
+    
+}
+.a-no-decor{
+    text-decoration: none;
+    color: initial;
 }
 .hero_button_auc a{
     
@@ -301,8 +313,13 @@ body{
 .swiper{
     margin: 0 5rem;
 }
+.swiper-slide{
+    height: auto;
+    display: flex;
+}
 .car_slide{
-    
+    align-content: end;
+    height: auto;
     background-color: #FFF;
     border-radius: 25px;
     padding: 1rem;
@@ -509,6 +526,7 @@ body{
 .video_player{
     width: 100%;
     border-radius: 1.5rem;
+    height:20rem;
 }
 
 .reviews{
@@ -683,7 +701,7 @@ body{
         background-size: cover;
         background-repeat: no-repeat;
         height: max-content;
-        padding: 2rem 0;
+        padding: 0rem 0;
         
            
     }
@@ -691,14 +709,14 @@ body{
         width: auto;
     }
     .hero_header h1{
-        font-size: 1.5rem;
+        font-size: 1.3rem;
         font-weight: 700;
         margin: 1rem auto;
         white-space: normal;
     }
     .hero_content{
         width: fit-content;
-        font-size: 1.5rem;
+        font-size: 1.3rem;
     }
     .hero_content ul{
         margin: 1rem 0;
