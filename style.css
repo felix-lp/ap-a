@@ -336,6 +336,7 @@ body{
 }
 .swiper-slide{
     height: auto;
+    width: fit-content;
     display: flex;
 }
 .car_slide{
@@ -359,6 +360,10 @@ body{
 .car_slide img{
     max-width: 15rem;
     width: 100%;
+}
+.car_slide p{
+    line-height: 1.3rem;
+    margin: 0.3rem 0;
 }
 .car_slide_price{
     background-color: #FFD400;
