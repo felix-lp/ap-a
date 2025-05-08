@@ -782,7 +782,7 @@ body{
     }
     .pros_block{
         transform: none;
-        margin: 0.25rem;
+        margin: 0.5rem 3rem;
         aspect-ratio: auto;
     }
     .four_steps_header{
